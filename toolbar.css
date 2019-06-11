@@ -1,0 +1,56 @@
+#toolbar {
+	background-color: #FFF5EE;
+
+	margin-top: -80px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+ }
+
+.line{
+  border-bottom: 1px groove black;
+  box-shadow: 0px 10px 5px 5px rgba(255, 255, 255, 1);
+}
+
+#logo {
+	margin-left: 5px;
+	width: 70px;
+	border-radius: 100%;
+}
+
+.icon {
+	width: 20px;
+	margin-right: 5px;
+}
+
+#toolbar-left {
+	display: inline-block;
+	width: 10%;
+	min-width: 100px;
+	margin-right: 10px;
+}
+
+#toolbar-center {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	width: 90%;
+	background-color: grey;
+	text-align: center;
+}
+#toolbar-right {
+	display: inline-block;
+	width: 10%;
+	min-width: 100px;
+}

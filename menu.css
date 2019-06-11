@@ -1,0 +1,16 @@
+#menu {
+	background-color: #FFF5EE;
+	margin-top: 80px;
+  border-bottom: 1px groove black;
+  width: 100%;
+  height: 30px;
+
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+
+.section{
+	margin-left: 4px;
+	margin-right:4px;
+}
